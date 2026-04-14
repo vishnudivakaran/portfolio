@@ -34,7 +34,7 @@ export default function About() {
             <span className="text-secondary uppercase tracking-[0.2em] text-sm font-semibold">About Me</span>
           </div>
           <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-extrabold tracking-[-0.03em] mb-8 leading-tight gradient-text">
-            I build digital <span className="gradient-text">masterpieces</span> that bridge the gap between design and code.
+            I build digital <span className="gradient-text">masterpieces</span> design and code.
           </h2>
           <p className="text-neutral-400 text-lg leading-relaxed mb-8">
             As a UI Developer and Next.js specialist, I focus on creating immersive web experiences.
