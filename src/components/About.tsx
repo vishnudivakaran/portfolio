@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { User, Code, Palette, Zap } from 'lucide-react';
 
 export default function About() {
-
   const highlights = [
     {
       icon: <Code className="text-secondary" size={24} />,
