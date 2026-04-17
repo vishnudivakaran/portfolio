@@ -22,7 +22,7 @@ export default function About() {
   ];
 
   return (
-    <section className="my-32 px-[5%] max-w-[1200px] mx-auto relative" id="about">
+    <section className="my-10 md:my-32 px-[5%] max-w-[1200px] mx-auto relative" id="about">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}

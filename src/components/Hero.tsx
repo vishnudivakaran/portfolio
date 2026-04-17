@@ -65,12 +65,12 @@ export default function Hero() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
-          className="flex gap-6"
+          className="flex gap-3 md:gap-6"
         >
-          <a href="#projects" className="bg-white text-[#000000] px-8 py-4 rounded-full font-semibold flex items-center gap-2 border-none cursor-pointer transition-colors duration-400 hover:shadow-[0_10px_25px_rgba(255,255,255,0.5)]">
+          <a href="#projects" className="bg-white text-[#000000] px-4 md:px-8 py-2 md:py-4 rounded-full font-semibold flex items-center gap-2 border-none cursor-pointer transition-colors duration-400 hover:shadow-[0_10px_25px_rgba(255,255,255,0.5)]">
             View Works <ArrowRight size={18} />
           </a>
-          <a href="#contact" className="bg-transparent text-white px-8 py-4 rounded-full font-semibold border border-white/20 cursor-pointer transition-colors duration-400 hover:bg-white/5 hover:border-white/40">
+          <a href="#contact" className="bg-transparent text-white px-4 md:px-8 py-2 md:py-4 rounded-full font-semibold border border-white/20 cursor-pointer transition-colors duration-400 hover:bg-white/5 hover:border-white/40">
             Contact Me
           </a>
         </motion.div>

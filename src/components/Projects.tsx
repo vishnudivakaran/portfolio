@@ -43,13 +43,13 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="my-32 px-[5%] max-w-[1400px] mx-auto" id="projects">
+    <section className="my-10 md:my-32 px-[5%] max-w-[1400px] mx-auto" id="projects">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-16"
+        className="text-center mb-8 md:mb-16"
       >
         <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-extrabold tracking-[-0.03em] mb-4 gradient-text">Featured Projects </h2>
         <p className="text-neutral-400 text-[1.1rem]">A selection of my recent work</p>
@@ -68,7 +68,7 @@ export default function Projects() {
               scale: 1.02,
               transition: { duration: 0.3 }
             }}
-            className="glass border-glass-border backdrop-blur-xs rounded-3xl p-10 transition-shadow duration-300 relative flex flex-col hover:border-white/20 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] cursor-default"
+            className="glass border-glass-border backdrop-blur-xs rounded-3xl p-5 md:p-10 transition-shadow duration-300 relative flex flex-col hover:border-white/20 hover:shadow-[0_20px_40px_rgba(0,0,0,0.5)] cursor-default"
           >
             <h3 className="text-2xl font-bold text-neutral-300 mb-4">{project.title}</h3>
             <p className="text-neutral-400 leading-relaxed mb-8 text-[0.95rem] grow">{project.description}</p>

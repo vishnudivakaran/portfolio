@@ -18,13 +18,13 @@ const skillCategories = [
 
 export default function Skills() {
   return (
-    <section className="my-32 px-[5%] max-w-[1400px] mx-auto" id="skills">
+    <section className="my-10 md:my-32 px-[5%] max-w-[1400px] mx-auto" id="skills">
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ margin: "-100px" }}
         transition={{ duration: 0.6 }}
-        className="text-center mb-16"
+        className="text-center mb-8 md:mb-16"
       >
         <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-extrabold tracking-[-0.03em] mb-4 gradient-text">Technical Arsenal</h2>
         <p className="text-neutral-400 text-[1.1rem]">Technologies I use to bring ideas to life</p>
@@ -38,7 +38,7 @@ export default function Skills() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ margin: "-50px" }}
             transition={{ duration: 0.5, delay: idx * 0.15 }}
-            className="bg-white/2 border border-glass-border rounded-[20px] p-10 backdrop-blur-xs"
+            className="bg-white/2 border border-glass-border rounded-[20px] p-5 md:p-10 backdrop-blur-xs"
           >
             <h3 className="text-xl font-semibold mb-6  text-neutral-300">{cat.category}</h3>
             <div className="flex flex-wrap gap-3">
