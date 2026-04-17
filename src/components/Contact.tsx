@@ -1,6 +1,7 @@
 "use client"
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Twitter, PhoneCallIcon, MailIcon, LinkedinIcon } from 'lucide-react';
+import { PhoneCallIcon, MailIcon, LucideLinkedin } from 'lucide-react';
+import Whatsapp from './ui/whatsapp';
 
 export default function Contact() {
   return (
@@ -20,7 +21,8 @@ export default function Contact() {
 
         <div className="flex gap-6 mt-6 md:mt-12">
           <a href="mailto:vishnupd8967@gmail.com" className="text-neutral-400 transition-all duration-200 hover:text-primary hover:-translate-y-[2px]"><MailIcon size={24} /></a>
-          <a href="https://www.linkedin.com/in/vishnu-divakaran-6135a420a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target='_blank' className="text-neutral-400 transition-all duration-200 hover:text-primary hover:-translate-y-[2px]"><LinkedinIcon size={24} /></a>
+          <a href="https://www.linkedin.com/in/vishnu-divakaran-6135a420a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target='_blank' className="text-neutral-400 transition-all duration-200 hover:text-primary hover:-translate-y-[2px]"><LucideLinkedin size={24} /></a>
+          <a href="https://wa.me/919961663127" className='text-neutral-400 transition-all duration-200 hover:text-primary hover:-translate-y-[2px]' target='_blank'><Whatsapp /></a>
         </div>
       </motion.div>
       <div className="text-center text-neutral-500 text-[0.9rem]">
